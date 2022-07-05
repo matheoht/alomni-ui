@@ -1,10 +1,10 @@
-# alomni-ui
+# Alomni-UI
 
 A simple react component library
 
 ## Table of Contents
 
-- [alomni-ui](#alomni-ui)
+- [Alomni-UI](#alomni-ui)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Documentation](#documentation)
@@ -17,7 +17,6 @@ To install alomni-ui you can use [npm](https://npmjs.org/)
 
 ## Documentation
 
-The main documentation of alomni-ui is the
-[Storybook](https://storybook.js.org/), which describes the library and gives examples of its usage.
+Alomni-UI use [Storybook](https://storybook.js.org/) as the main documentation, which describes the library and gives examples of its usage.
 
-To run the Storybook documentation you have to clone the github repository of [alomni-ui](https://github.com/matheoht/alomni-ui) and execute the command `npm run storybook`
+To run the Storybook you have to clone the github repository of [Alomni-UI](https://github.com/matheoht/alomni-ui) and execute the command `npm run storybook`
