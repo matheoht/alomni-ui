@@ -1,2 +1,2 @@
-export { default as Button } from "./Button";
-export { default as Header } from "./Header";
+export { Button } from "./Button";
+export { Header } from "./Header";
