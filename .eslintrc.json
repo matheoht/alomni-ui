@@ -23,6 +23,8 @@
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {

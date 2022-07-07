@@ -5,8 +5,8 @@ export interface HeaderProps {
   label: string;
 }
 
-function Header(props: HeaderProps) {
-  return <h1>{props.label}</h1>;
+function Header({ label }: HeaderProps) {
+  return <h1>{label}</h1>;
 }
 
 export default Header;
