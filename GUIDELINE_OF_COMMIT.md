@@ -1,12 +1,14 @@
 # Alomni-UI Commit Guideline
 
-## Guideline Summary :
+## Guideline Summary
 
-- [Semantic Versioning](#semantic-versioning-:)
-- [Commit Convention](#commit-convention-:)
-- [Branches](#branches)
+- [Semantic Versioning](#semantic-versioning)
+- [Commit Convention](#commit-convention)
+- [Branches](#branches-architecture)
 
-## Semantic Versioning :
+---
+
+## Semantic Versioning
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
@@ -14,7 +16,9 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 - **MINOR** version when you add functionality in a backwards compatible manner.
 - **PATCH** version when you make backwards compatible bug fixes.
 
-## Commit Convention :
+---
+
+## Commit Convention
 
 ```
 <type>: [optional scope]: <description>
@@ -61,3 +65,10 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 - Use a **!** in front of the type e.g. **feat!**
 - Start the body with **BREAKING CHANGE:** with a space after it, then explain the breaking change
+
+---
+
+## Branches Architecture
+
+- `"main"` is the current development branche.
+- `"release/vX.X.X"` contain the source code of the specified version.
