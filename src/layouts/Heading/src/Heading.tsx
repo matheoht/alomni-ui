@@ -1,12 +1,11 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import "./Heading.css";
 
 export interface HeadingProps {
-  children?: string;
+  children?: ReactNode;
   type: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
   size?: string;
   color?: string;
-  style?: object;
   onClick?: () => void;
   m?: string;
   ml?: string;
@@ -21,7 +20,7 @@ export interface HeadingProps {
 }
 
 const Heading: React.FC<HeadingProps> = ({
-  type,
+  type = "h1",
   children,
   onClick,
   size,
@@ -37,9 +36,9 @@ const Heading: React.FC<HeadingProps> = ({
   pr,
   pb,
 }) => {
-  // React.createElement() method is used over JSX to avoid an if condition tree by passing directly the type
+  // React.createElement() method is used instead JSX to avoid an if/else trees or switch by passing directly the type as argument of React.createElement()
   return React.createElement(
-    type || "h1",
+    type,
     {
       onClick,
       style: {
