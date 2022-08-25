@@ -15,9 +15,12 @@ const Heading: React.FC<HeadingProps> = ({
   children,
   onClick,
 }) => {
+  //if a color is provided use color-primary-{color} otherwise use the default black color of the library
   let colorClass;
   if (color) {
-    colorClass = "color-primary-" + color;
+    colorClass = "DS-color-primary-" + color;
+  } else {
+    colorClass = "DS-color-black";
   }
 
   // React.createElement() method is used instead JSX to avoid an if/else trees or switch by passing directly the type as argument of React.createElement()
