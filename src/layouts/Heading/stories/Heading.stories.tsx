@@ -2,6 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import Heading from "../src/Heading";
+
 export default {
   title: "Layout/Heading",
   component: Heading,
