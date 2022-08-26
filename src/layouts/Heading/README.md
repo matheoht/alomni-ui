@@ -41,7 +41,7 @@ The `"color"` property is build to use the native color palette of the library i
 
 ```jsx
   <Heading color="red">Alomni-ui palette red</Heading>
-  <Heading color="orange">Alomni-ui palette orange </Heading>
+  <Heading color="orange">Alomni-ui palette orange</Heading>
   <Heading color="blue">Alomni-ui palette blue</Heading>
   <Heading color="green">Alomni-ui palette green</Heading>
   <Heading color="purple">Alomni-ui palette purple</Heading>
