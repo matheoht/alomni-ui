@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 export interface useToggleProps {
-  defaultValue?: boolean;
+  defaultValue?: Boolean;
 }
 
-const useToggle = (defaultValue?: boolean) => {
+const useToggle = (defaultValue?: Boolean) => {
   const [status, setStatus] = useState(defaultValue || false);
-  const toggleStatus = () => setStatus((prevStatus: boolean) => !prevStatus);
+  const toggleStatus = () => setStatus((prevStatus: Boolean) => !prevStatus);
 
   return { status, toggleStatus } as const;
 };
