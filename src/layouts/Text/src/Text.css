@@ -1,0 +1,12 @@
+/* Size */
+.Text-size-s {font-size: 11px;}
+.Text-size-md {font-size: 13px;}
+.Text-size-l {font-size: 16px;}
+
+/* Weight */
+.Text-weight-light {font-weight: 500;}
+.Text-weight-regular {font-weight: 600;}
+.Text-weight-bold {font-weight: 900;}
+
+/* Italic */
+.Text-italic {font-style: italic;}
