@@ -12,7 +12,7 @@ const Heading: React.FC<HeadingProps> = ({
   type = "h1", // Set default type
   color,
   style,
-  children,
+  children = "Default name", // Set default name 
   onClick,
 }) => {
 
