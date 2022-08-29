@@ -1,0 +1,56 @@
+/* Default style */
+.Tag{
+  font-weight: 500;
+  width: fit-content;
+}
+
+/* Color */
+.Tag-color-blue{
+  background-color: var(--color-secondary-blue);
+  color: var(--color-primary-blue);
+}
+.Tag-color-red{
+  background-color: var(--color-secondary-red);
+  color: var(--color-primary-red);
+}
+.Tag-color-green{
+  background-color: var(--color-secondary-green);
+  color: var(--color-primary-green);
+}
+.Tag-color-purple{
+  background-color: var(--color-secondary-purple);
+  color: var(--color-primary-purple);
+}
+.Tag-color-orange{
+  background-color: var(--color-secondary-orange);
+  color: var(--color-primary-orange);
+}
+.Tag-color-gray{
+  background-color: var(--color-secondary-gray);
+  color: var(--color-primary-gray);
+}
+
+/* Size */
+.Tag-size-s{
+  padding: 7px;
+  font-size: 11px;
+}
+.Tag-size-md{
+  padding: 9px;
+  font-size: 13px;
+}
+.Tag-size-l{
+  padding: 11px;
+  font-size: 16px;
+}
+
+/* Radius */
+.Tag-radius-sharp{
+  border-radius: 0px;
+}
+.Tag-radius-default{
+  border-radius: 4px;
+}
+.Tag-radius-rounded{
+  border-radius: 25px;
+}
