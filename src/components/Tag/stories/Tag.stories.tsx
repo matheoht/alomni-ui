@@ -6,7 +6,6 @@ import Tag from "../src/Tag";
 export default {
   title: "Components/Tag",
   component: Tag,
-  argTypes: { italic: { control: 'boolean' }}
 } as ComponentMeta<typeof Tag>;
 
 const Template: ComponentStory<typeof Tag> = (args) => (
