@@ -1,0 +1,112 @@
+/* Default style */
+.Button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.Button:hover{
+  opacity: .7;
+}
+.Button:active{
+  opacity: 1;
+}
+.Button:disabled{
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+/* Color */
+.Button-solid-blue{
+  background-color: var(--color-primary-blue);
+  color: white;
+}
+.Button-outline-blue{
+  border: solid 1px var(--color-primary-blue);
+  color: var(--color-primary-blue);
+}
+
+.Button-solid-red{
+  background-color: var(--color-primary-red);
+  color: white;
+}
+.Button-outline-red{
+  border: solid 1px var(--color-primary-red);
+  color: var(--color-primary-red);
+}
+
+.Button-solid-green{
+  background-color: var(--color-primary-green);
+  color: white;
+}
+.Button-outline-green{
+  border: solid 1px var(--color-primary-green);
+  color: var(--color-primary-green);
+}
+
+.Button-solid-purple{
+  background-color: var(--color-primary-purple);
+  color: white;
+}
+.Button-outline-purple{
+  border: solid 1px var(--color-primary-purple);
+  color: var(--color-primary-purple);
+}
+
+.Button-solid-orange{
+  background-color: var(--color-primary-orange);
+  color: white;
+}
+.Button-outline-orange{
+  border: solid 1px var(--color-primary-orange);
+  color: var(--color-primary-orange);
+}
+
+.Button-solid-gray{
+  background-color: var(--color-primary-gray);
+  color: white;
+}
+.Button-outline-gray{
+  border: solid 1px var(--color-primary-gray);
+  color: var(--color-primary-gray);
+}
+
+.Button-solid-black{
+  background-color: var(--color-black);
+  color: white;
+}
+.Button-outline-black{
+  border: solid 1px var(--color-black);
+  color: var(--color-black);
+}
+
+/* Size */
+.Button-size-s{
+  padding: 11px 22px 11px 22px;
+  font-size: 11px;
+}
+.Button-size-md{
+  padding: 13px 26px 13px 26px;
+  font-size: 13px;
+}
+.Button-size-l{
+  padding: 16px 36px 16px 36px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Radius */
+.Button-radius-sharp{
+  border-radius: 0px;
+}
+.Button-radius-default{
+  border-radius: 4px;
+}
+.Button-radius-rounded{
+  border-radius: 50px;
+}
+
+/* Width */
+.Button-width-full{
+  width: 100%;
+}
