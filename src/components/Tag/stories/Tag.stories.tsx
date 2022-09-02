@@ -20,11 +20,4 @@ const Template: ComponentStory<typeof Tag> = (args) => (
   </Tag>
 );
 
-export const text = Template.bind({});
-
-text.args = {
-  size: "md",
-  radius: "default",
-  children: "Default Tag",
-};
-
+export const tag = Template.bind({});
