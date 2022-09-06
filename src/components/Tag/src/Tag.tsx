@@ -11,23 +11,19 @@ export interface TagProps {
 }
 
 const Tag: React.FC<TagProps> = ({
-  color = "blue",// Set default color
+  color = "blue", // Set default color
   size = "md", // Set default size
   radius = "default", // Set default radius
   style,
-  children = "Default name", // Set default name 
+  children = "Default name", // Set default name
   onClick,
 }) => {
   return (
     <div
-    className={
-      "Tag " +
-      (color ? `Tag-color-${color} ` : "") + // Set the color
-      (size ? `Tag-size-${size} ` : "") + // Set the size
-      (radius ? `Tag-radius-${radius} ` : "") // Set the radius
-    }
-    style={style}
-    onClick={onClick}>
+      className={`ALUI-Tag ALUI-Tag-color-${color} ALUI-Tag-size-${size} ALUI-Tag-radius-${radius}`}
+      style={style}
+      onClick={onClick}
+    >
       <p>{children}</p>
     </div>
   );
