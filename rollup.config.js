@@ -33,7 +33,10 @@ export default [
         ],
         tsconfig: "./tsconfig.json",
       }),
-      postcss(),
+      postcss({
+        minimize: true,
+        sourceMap: true,
+      }),
     ],
   },
   {
