@@ -17,16 +17,15 @@ const Text: React.FC<TextProps> = ({
   weight = "regular", // Set default weight
   italic = false, // Set default italic to false
   style,
-  children = "Default name", // Set default name 
+  children = "Default name", // Set default name
   onClick,
 }) => {
   return (
     <p
       className={
         (color ? `DS-color-primary-${color} ` : "DS-color-black ") + // If a color is provided use DS-color-primary-{color} otherwise use the default black color of the library
-        (size ? `Text-size-${size} ` : "") + // Set the size
-        (weight ? `Text-weight-${weight} ` : "") + // Set the weight
-        (italic ? "Text-italic" : "") // If italic is provided add the class "Text-italic"
+        `ALUI-Text-size-${size} ALUI-Text-weight-${weight} ` +
+        (italic ? "ALUI-Text-italic" : "") // If italic is provided add the class "Text-italic" 
       }
       style={style}
       onClick={onClick}
