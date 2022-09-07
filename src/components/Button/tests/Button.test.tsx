@@ -3,8 +3,8 @@ import { render } from "@testing-library/react";
 
 import Button from "../src/Button";
 
-describe("Button", () => {
-  test("renders the Button component", () => {
+describe("Button component", () => {
+  it("renders the Button component", () => {
     render(<Button>Hello world!</Button>);
   });
 });

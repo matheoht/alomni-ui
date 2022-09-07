@@ -5,8 +5,8 @@ import Button from "../src/Button";
 
 export default {
   title: "Components/Button",
-  argTypes: { 
-    disabled: { control: 'boolean' }
+  argTypes: {
+    disabled: { control: "boolean" },
   },
   component: Button,
 } as ComponentMeta<typeof Button>;
