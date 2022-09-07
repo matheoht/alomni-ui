@@ -6,7 +6,7 @@ import Text from "../src/Text";
 export default {
   title: "Layouts/Text",
   component: Text,
-  argTypes: { italic: { control: 'boolean' }}
+  argTypes: { italic: { control: "boolean" } },
 } as ComponentMeta<typeof Text>;
 
 const Template: ComponentStory<typeof Text> = (args) => (
