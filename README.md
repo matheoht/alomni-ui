@@ -7,14 +7,43 @@ A simple react component library
 - [Alomni-UI](#alomni-ui)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
+  - [Usage](#usage)
   - [Documentation](#documentation)
 
 ## Installation
 
 To install Alomni-UI you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com) :
 
-    $ npm i alomni-ui
-    $ yarn add alomni-ui
+```
+$ npm i alomni-ui
+$ yarn add alomni-ui
+```
+
+## Usage
+
+Import Alomni-UI style manually in `index.js`:
+
+```js
+import "alomni-ui/dist/alomni-ui.css";
+```
+
+Example of Alomni-UI usage:
+
+```jsx
+import { useState } from "react";
+import { Button, Text } from "alomni-ui";
+
+function App() {
+  const [counter, setCounter] = useState(0);
+
+  return (
+    <div style={{ margin: "50px" }}>
+      <Button width="full" onClick={() => {setCounter(counter + 1);}}>Click me !</Button>
+      <Text size="l" color="blue" style={{ textAlign: "center" }}>{counter}</Text>
+    </div>
+  );
+}
+```
 
 ## Documentation
 
