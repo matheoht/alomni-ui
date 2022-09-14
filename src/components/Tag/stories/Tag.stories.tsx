@@ -21,3 +21,6 @@ const Template: ComponentStory<typeof Tag> = (args) => (
 );
 
 export const tag = Template.bind({});
+tag.args = {
+  children: "Default name"
+}
