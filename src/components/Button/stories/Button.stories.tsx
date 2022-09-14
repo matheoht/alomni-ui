@@ -27,3 +27,6 @@ const Template: ComponentStory<typeof Button> = (args) => (
 );
 
 export const button = Template.bind({});
+button.args = {
+  children: "Default name"
+}
