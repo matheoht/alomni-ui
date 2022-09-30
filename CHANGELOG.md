@@ -5,7 +5,7 @@ All notable changes to Alomni-UI will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## v1.1.0 - 26 September 2022
+## v1.1.0 - 26 September 2022 [[branch]](https://github.com/matheoht/alomni-ui/tree/release/v1.1.0)
 
 ### Added :
 
