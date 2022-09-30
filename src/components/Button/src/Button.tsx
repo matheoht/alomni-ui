@@ -27,7 +27,16 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       disabled={!!disabled}
-      className={`ALUI-Button ALUI-Button-${type}-${color} ALUI-Button-size-${size} ALUI-Button-radius-${radius} ALUI-Button-width-${width}`}
+      className={
+        `ALUI-Button ALUI-Button-${type}-${color} ALUI-Button-size-${size} ALUI-Button-radius-${radius} ALUI-Button-width-${width}`
+        /* `Button ${
+          color ? `Button-${type}-${color} ` : "" // Set type and color
+        }${
+          size ? `Button-size-${size} ` : "" // Set size
+        }${
+          radius ? `Button-radius-${radius} ` : "" // Set radius
+        }${width ? `Button-width-${width} ` : ""}` // Set width */
+      }
       style={style}
       onClick={onClick}
       type="button"
