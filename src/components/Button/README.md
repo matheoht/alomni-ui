@@ -41,7 +41,7 @@ The `"size"` property as to be one of those three values `s` `md` `l` if no argu
 
 ### color
 
-The `"color"` property is build to use the native color palette of the library it as to be one of those six values `red` `orange` `blue` `green` `purple` `gray` `black` the default value is `blue`.
+The `"color"` property is build to use the native color palette of the library it as to be one of those seven values `red` `orange` `blue` `green` `purple` `gray` `black` the default value is `blue`.
 
 ```jsx
   <div style={{display: "flex" , gap: "10px"}}>
