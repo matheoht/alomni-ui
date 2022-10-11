@@ -1,0 +1,55 @@
+
+/* Default style */
+.ALUI-Pbar{
+  position:relative;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.ALUI-Pbar-top {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 4px;
+}
+
+.ALUI-Pbar-bg-progress{
+  z-index: -1;
+  height: 10px;
+  background-color: var(--color-background);
+  border-radius: 8px;
+}
+
+.ALUI-Pbar-progress{
+  display: block;
+  height: 10px;
+  border-radius: 8px;
+  position: absolute;
+}
+
+/* Color */
+.ALUI-Pbar-color-blue {background-color: var(--color-primary-blue)}
+.ALUI-Pbar-color-red {background-color: var(--color-primary-red)}
+.ALUI-Pbar-color-green {background-color: var(--color-primary-green)}
+.ALUI-Pbar-color-purple {background-color: var(--color-primary-purple)}
+.ALUI-Pbar-color-orange {background-color: var(--color-primary-orange)}
+.ALUI-Pbar-color-gray {background-color: var(--color-primary-gray)}
+.ALUI-Pbar-color-black {background-color: var(--color-black)}
+
+/* Small Size */
+.ALUI-Pbar-s .ALUI-Pbar-bg-progress{height: 6px;}
+.ALUI-Pbar-s .ALUI-Pbar-progress{height: 6px;}
+.ALUI-Pbar-s .ALUI-Pbar-label {font-size: 11px;}
+.ALUI-Pbar-s .ALUI-Pbar-percentage {font-size: 11px;}
+
+/* Medium Size */
+.ALUI-Pbar-md .ALUI-Pbar-bg-progress{height: 8px;}
+.ALUI-Pbar-md .ALUI-Pbar-progress{height: 8px;}
+.ALUI-Pbar-md .ALUI-Pbar-label {font-size: 13px;}
+.ALUI-Pbar-md .ALUI-Pbar-percentage {font-size: 13px;}
+
+/* Large Size */
+.ALUI-Pbar-l .ALUI-Pbar-bg-progress{height: 10px;}
+.ALUI-Pbar-l .ALUI-Pbar-progress{height: 10px;}
+.ALUI-Pbar-l .ALUI-Pbar-label {font-size: 16px;}
+.ALUI-Pbar-l .ALUI-Pbar-percentage {font-size: 16px;}
