@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Anchor from "../src/Anchor";
 
 export default {
-  title: "Components/Anchor",
+  title: "Components",
   component: Anchor,
 } as ComponentMeta<typeof Anchor>;
 
