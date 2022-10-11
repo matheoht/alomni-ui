@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Text from "../src/Text";
 
 export default {
-  title: "Layouts/Text",
+  title: "Layouts",
   component: Text,
   argTypes: { italic: { control: "boolean" } },
 } as ComponentMeta<typeof Text>;
