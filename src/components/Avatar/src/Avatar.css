@@ -1,0 +1,38 @@
+/* Default style */
+.ALUI-Avatar-text{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: white;
+}
+
+/* Color */
+.ALUI-Avatar-color-blue{background-color: var(--color-primary-blue);}
+.ALUI-Avatar-color-red{background-color: var(--color-primary-red);}
+.ALUI-Avatar-color-green{background-color: var(--color-primary-green);}
+.ALUI-Avatar-color-purple{background-color: var(--color-primary-purple);}
+.ALUI-Avatar-color-orange{background-color: var(--color-primary-orange);}
+.ALUI-Avatar-color-gray{background-color: var(--color-primary-gray);}
+.ALUI-Avatar-color-black{background-color: var(--color-black);}
+
+/* Size */
+.ALUI-Avatar-size-s{
+  height: 32px;
+  width: 32px;
+  font-size: 13px;
+}
+.ALUI-Avatar-size-md{
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+}
+.ALUI-Avatar-size-l{
+  height: 64px;
+  width: 64px;
+  font-size: 24px;
+}
+
+/* Radius */
+.ALUI-Avatar-radius-sharp{border-radius: 0px;}
+.ALUI-Avatar-radius-default{border-radius: 4px;}
+.ALUI-Avatar-radius-rounded{border-radius: 50%;}
