@@ -20,7 +20,13 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
   style = {},
   onClick,
 }) => {
-  let percentage = Math.round((value / maxvalue) * 100) + "%"; // Calculate the percentage
+  let percentage:any = Math.round((value / maxvalue) * 100); // Calculate the percentage
+
+  //Clamp execive percentage
+  if(percentage < 0){percentage = "0%"}
+  else if(percentage > 100){percentage = "100%"}
+  else{percentage = percentage + "%"}
+  
   let custom_style = { ...style, width: percentage }; // Add the property {width: percentage} to props.style
   return (
    <div className={`ALUI-Pbar ALUI-Pbar-${size}`} onClick={onClick}>
