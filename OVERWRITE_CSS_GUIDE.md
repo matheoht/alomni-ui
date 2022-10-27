@@ -2,7 +2,7 @@
 
 ## To overwrite the default style/colors of Alomni-UI follow this three step guide.
 
-Step 1: Create a file called `"overwritecss.css"` 
+**Step 1:** Create a file called `"overwritecss.css"`. 
 
 ```css
 /* Overwrite font*/
@@ -39,9 +39,9 @@ h4 {font-size: 22px}
 h5 {font-size: 20px}
 h6 {font-size: 18px}
 ```
-Step 2: Edit the template as you need and copy it to `"overwritecss.css"` 
+**Step 2:** Edit the template as you need and copy it to `"overwritecss.css"`.
 
-Step 3: Import `"overwritecss.css"` under the import of `"alomni-ui.css"` like follow:
+**Step 3:** Import `"overwritecss.css"` under the import of `"alomni-ui.css"` like follow:
 
 ```jsx
 import "alomni-ui/src/styles/alomni-ui.css";
