@@ -27,6 +27,9 @@ Import Alomni-UI style manually in `index.js`:
 import "alomni-ui/dist/alomni-ui.css";
 ```
 
+To overwrite the default style/colors of Alomni-UI [follow this guide](https://github.com/matheoht/alomni-ui/blob/main/OVERWRITE_CSS_GUIDE.md) 
+
+
 Example of Alomni-UI usage:
 
 ```jsx
